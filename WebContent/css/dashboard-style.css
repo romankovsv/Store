@@ -1,0 +1,115 @@
+.topbar {
+    min-width: 500px; 
+    height: 65px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position :relative;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(56, 175, 143);
+
+}
+
+.topbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar li {
+   float: left;
+    display: block;
+    padding: 10px 20px 10px 10px;
+}
+
+.topbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+.references a:hover, .active {
+    border-bottom: 3px solid black;
+}
+
+.page{
+    background-color:burlywood;
+}
+
+.body{
+    min-width: 600px;
+    padding:0;
+    
+}
+
+
+.inputs .search_field{
+    width:410px;
+    padding: 12px 10px;
+    margin: 10px 0px ;
+    display: inline-block;
+    border: 1px solid black;
+   
+    line-height:10px;
+     cursor: pointer;
+}
+
+.inputs .search_button {
+    background-color: rgb(83, 109, 103);
+    border:  1px solid black; 
+    color: black;
+    padding: 10px 80px;
+    text-decoration: none;
+    margin: 6px 7px; 
+}
+
+
+.tableOfMeals{  
+     width:650px;
+     border-collapse: collapse;
+}
+
+.tableOfMeals table, th, td {
+  
+    text-align: left;
+    font-family: Arial, Helvetica,sans-serif;
+} 
+
+
+.tableOfMeals th {
+     padding: 10px;
+    height: 20px;
+    background-color:  	#DEB887; 
+      border: 1px solid black;
+}
+
+.tableOfMeals tr{
+	font-weight: normal;
+      border: 1px solid black;
+}
+
+.tableOfMeals td {
+    border: 1px solid black;
+}
+
+.delete{
+    width:100%
+}
+
+.columnForDelete{
+    padding: 0;
+}
+
+.success_message{
+	color: green;
+	font-size:23px;
+}
+
+.unsuccess_message{
+	color: red;
+	font-size:23px;
+}
+
+

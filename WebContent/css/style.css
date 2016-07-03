@@ -1,0 +1,107 @@
+
+.topbar {
+    min-width: 400px;
+    height: 65px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position :relative;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(56, 175, 143);
+
+}
+
+.topbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar li {
+   float: left;
+    display: block;
+    padding: 10px 20px 10px 10px;
+}
+
+.topbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.page{
+    background-color:burlywood;
+}
+
+.inputs  {
+    width:200px;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    line-height:10px;
+}
+
+.field {
+    clear:both;  
+    line-height:25px;
+}
+
+.main_field{
+    width:330px;
+    height:430px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color:#b0b4b0;
+}
+
+.references a:hover, .active {
+    border-bottom: 2px solid black;
+}
+
+.subm{
+    background-color: rgb(15, 100, 199);
+    margin-left: 84px;
+    width:202px;
+    height:32px;
+}
+
+.screen-add{
+	width:550px;
+	height:510px;
+	float:right;
+	clear:both;
+	margin:5px;
+	background-image: url("../images/screen-add.png"); 
+	background-size: cover;
+}
+
+.screen-dashboard{
+	width:550px;
+	height:250px;
+	float:right;
+	clear:both;
+	margin:5px;
+	background-image: url("../images/screen-dashboard.png");  
+		background-size: cover;
+}
+
+.moto{
+	font-size:22px;
+}
+
+.success_message{
+	color: green;
+	font-size:23px;
+}
+
+.unsuccess_message{
+	color: red;
+	font-size:23px;
+}
+
+
+
