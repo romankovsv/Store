@@ -7,9 +7,10 @@ import java.util.List;
 import com.foodstore.serg.controller.SearchMealServlet;
 import com.foodstore.serg.model.Meal;
 import org.apache.log4j.*;
+import static  org.apache.log4j.Logger.*;
 
 public class MealRepository {
-	public static final org.apache.log4j.Logger LOGGER = org.apache.log4j.Logger.getLogger(MealRepository.class.getSimpleName());
+	public static final Logger LOGGER = Logger.getLogger(MealRepository.class.getSimpleName());
 	private static List<Meal> listOfMeals = new ArrayList<>();
 	
 	public static boolean add(final Meal meal){

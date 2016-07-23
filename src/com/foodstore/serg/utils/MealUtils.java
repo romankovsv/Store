@@ -3,10 +3,11 @@ package com.foodstore.serg.utils;
 import com.foodstore.serg.controller.SearchMealServlet;
 import com.foodstore.serg.model.Meal;
 import org.apache.log4j.*;
+import static  org.apache.log4j.Logger.*;
 
 public class MealUtils {
 	
-	public static final org.apache.log4j.Logger LOGGER = org.apache.log4j.Logger.getLogger(MealUtils.class.getSimpleName());
+	public static final Logger LOGGER = Logger.getLogger(MealUtils.class.getSimpleName());
 	
 	private static boolean checkParams(String title, String description, String type, 
 			Boolean available, String price, String owner){

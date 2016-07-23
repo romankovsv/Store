@@ -15,6 +15,8 @@ import org.apache.log4j.*;
 import com.foodstore.serg.model.Meal;
 import com.foodstore.serg.service.MealService;
 import static com.foodstore.serg.constants.ServletConstants.*;
+import static  org.apache.log4j.Logger.*;
+
 
 @WebServlet(name = "DisplayAllMealServlet", urlPatterns = "/display")
 public class DisplayAllMealServlet extends HttpServlet {

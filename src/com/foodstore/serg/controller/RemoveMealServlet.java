@@ -14,11 +14,12 @@ import com.foodstore.serg.model.Meal;
 import com.foodstore.serg.service.MealService;
 import static com.foodstore.serg.constants.ServletConstants.*;
 import org.apache.log4j.*;
+import static  org.apache.log4j.Logger.*;
 
 @WebServlet(name = "RemoveMealServlet", urlPatterns = "/remove")
 public class RemoveMealServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	public static final org.apache.log4j.Logger LOGGER = org.apache.log4j.Logger.getLogger(RemoveMealServlet.class.getSimpleName());
+	public static final Logger LOGGER = Logger.getLogger(RemoveMealServlet.class.getSimpleName());
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		LOGGER.debug("GET request");

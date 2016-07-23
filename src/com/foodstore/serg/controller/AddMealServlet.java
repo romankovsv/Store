@@ -15,14 +15,14 @@ import com.foodstore.serg.service.MealService;
 import com.foodstore.serg.utils.MealUtils;
 import static com.foodstore.serg.constants.ServletConstants.*;
 import org.apache.log4j.*;
-
+import static  org.apache.log4j.Logger.*;
 
 @WebServlet(name = "AddMealServlet", urlPatterns = "/add")
 public class AddMealServlet extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;   
 	
-	public static final org.apache.log4j.Logger LOGGER = org.apache.log4j.Logger.getLogger(AddMealServlet.class.getSimpleName());
+	public static final Logger LOGGER = Logger.getLogger(AddMealServlet.class.getSimpleName());
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		LOGGER.debug("GET request");
