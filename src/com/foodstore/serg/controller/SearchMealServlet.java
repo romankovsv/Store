@@ -35,17 +35,17 @@ public class SearchMealServlet extends HttpServlet {
 		final String search = request.getParameter(SEARCH);
 		
 		if(search == null ||search.isEmpty()){
-			LOGGER.info("Search parameter is empty");
+			LOGGER.debug("Search parameter is empty");
 			request.setAttribute(MESSAGE, SEARCH_IS_EMPTY);
 		}else{	
 			List<Meal> resultList = MealService.search(search);
 			request.setAttribute(FOOD, resultList);
 		
 			if(resultList.isEmpty()){
-				LOGGER.info("Meal wasn`t found");
+				LOGGER.debug("Meal wasn`t found");
 				request.setAttribute(MESSAGE, NO_SUCH_MEAL);
 			}else{
-				LOGGER.info("Meal was found successfully");
+				LOGGER.debug("Meal was found successfully");
 				request.setAttribute(SUCCESS_MESSAGE, FOUND_MEAL);
 			}
 		}

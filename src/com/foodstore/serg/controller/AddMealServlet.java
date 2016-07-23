@@ -51,10 +51,10 @@ public class AddMealServlet extends HttpServlet {
 			request.setAttribute(MESSAGE, ERROR);
 		}else{
 			if(MealService.add(meal)){
-				LOGGER.info("Meal added");
+				LOGGER.debug("Meal added");
 				request.setAttribute(SUCCESS_MESSAGE, SUCCESS);
 			}else{
-				LOGGER.info("Meal wasn`t added");
+				LOGGER.debug("Meal wasn`t added");
 				request.setAttribute(MESSAGE, NOT_ADDED);
 			}
 		}	

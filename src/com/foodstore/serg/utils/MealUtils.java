@@ -24,7 +24,7 @@ public class MealUtils {
 		Meal meal = null;
 		
 		if(checkParams(title, description, type, available, price, owner)){
-			LOGGER.info("Parameters are correct Create new Meal");
+			LOGGER.debug("Parameters are correct Create new Meal");
 				meal = new Meal.MealBuilder()
 						.id()
 						.title(title)

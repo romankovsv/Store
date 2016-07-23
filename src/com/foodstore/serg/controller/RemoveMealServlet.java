@@ -37,12 +37,12 @@ public class RemoveMealServlet extends HttpServlet {
 			LOGGER.debug("Parsing given parameter to integer");
 			
 			if(MealService.remove(idForRemoving)){
-				LOGGER.info("Meal was deleted");
+				LOGGER.debug("Meal was deleted");
 				request.setAttribute(TITLE, request.getParameter("title"));
 				request.setAttribute(SUCCESS_REMOVE, SUCCESS_DELETE);
 				
 			}else{
-				LOGGER.info("Meal was deleted");
+				LOGGER.debug("Meal was deleted");
 				request.setAttribute(UNSUCCESS_REMOVE, NOT_DELETED);
 			}
 		}catch(NumberFormatException e){
