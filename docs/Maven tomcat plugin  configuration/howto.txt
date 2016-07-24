@@ -1,0 +1,13 @@
+To enable use  of maven tomcat plugin with different profiles
+follow these steps:
+
+1. Replace tomcat_users.xml in your {CATALINA_BASE}\conf with provided tomcat_users.xml file.
+2. Replace settings.xml file in  {M2_HOME}\conf with provided settings.xml file.
+3. To enable work of Mentor profile add in file server.xml in your {CATALINA_BASE}\conf following:
+
+		<Connector port="8181" protocol="HTTP/1.1"
+               		connectionTimeout="20000"
+               		redirectPort="8444" />
+               		
+4. Build + Deploy project with:
+			~\mvn tomcat7:deploy
