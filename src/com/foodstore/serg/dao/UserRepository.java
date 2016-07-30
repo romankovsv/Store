@@ -13,15 +13,10 @@ public class UserRepository implements UserDAO{
 
 	@Override
 	public boolean add(User user) {
-		boolean res;
+	
 		try{
-			 res = users.add(user);
-			 if(res){
-				 LOGGER.info("User was added to DB"); 
-				 return true;
-			 }
-			 LOGGER.info("User was not added to DB"); 
-			 return false;
+			LOGGER.info("Add User to DB");
+			return users.add(user);
 		}catch(Exception e){
 			LOGGER.error("Exception by adding user to DB");
 			e.printStackTrace();
