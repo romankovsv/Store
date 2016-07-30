@@ -15,7 +15,12 @@ public class UserRepository implements UserDAO{
 	public boolean add(User user) {
 	
 		try{
+			if(users.contains(user)){
+				LOGGER.info("DB already contains user with such credentials");
+				return false;
+			}
 			LOGGER.info("Add User to DB");
+			
 			return users.add(user);
 		}catch(Exception e){
 			LOGGER.error("Exception by adding user to DB");
