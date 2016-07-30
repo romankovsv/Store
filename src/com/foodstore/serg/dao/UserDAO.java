@@ -5,5 +5,6 @@ import com.foodstore.serg.model.User;
 public interface UserDAO {
 	
 	public boolean add(User user);
-	public User findUser();
+	
+	public User findUser(User user);
 }
