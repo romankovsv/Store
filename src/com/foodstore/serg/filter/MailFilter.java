@@ -35,6 +35,15 @@ public class MailFilter implements Filter{
 			throws IOException, ServletException {
 		
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
+		
+		if( ! httpRequest.getMethod().equalsIgnoreCase("POST")){
+			
+			chain.doFilter(request, response); 
+		}else{
+			String email = request.getParameter(MAIL);
+		}
+		
+		
 	}
 
 	
