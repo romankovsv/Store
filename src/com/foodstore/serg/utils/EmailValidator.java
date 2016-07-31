@@ -12,7 +12,7 @@ public class EmailValidator {
 	 * must be a letter
 	 * Part after . can be either 2 or 3 characters long
 	 * @param emailToCheck string contains email field
-	 * @return
+	 * @return boolean emailToCheck passed the validation or not
 	 */
 	public static boolean validateEmail(String emailToCheck){
 		
