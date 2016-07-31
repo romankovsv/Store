@@ -1,11 +1,11 @@
 package com.foodstore.serg.utils;
 import java.util.regex.*;
 
-public class EmailValidator {
+public class Validator {
 	
 	
 	/**
-	 * Validate followings:
+	 * Validates followings:
 	 * first part of email before @ can be 4 to 31 length, can contain
 	 * numbers and letters and also . (dot) and _ (underscore)
 	 * Part after @ can be at least 1 character long and first character
@@ -20,6 +20,22 @@ public class EmailValidator {
 		
 		Pattern pattern = Pattern.compile(MAIL_PATTERN);
 		Matcher matcher = pattern.matcher(emailToCheck);
+		
+		return matcher.matches();
+	}
+	
+	/**
+	 * Validates password to contain any character and to be 
+	 * from 5 through 25 characters length
+	 * @param passwordToCheck string contains password field
+	 * @return boolean passwordToCheck passed the validation or not
+	 */
+	public static boolean validatePassword(String passwordToCheck){
+		
+		final String PASSWORD_PATTERN = "^.{5,25}$";
+		
+		Pattern pattern = Pattern.compile(PASSWORD_PATTERN);
+		Matcher matcher = pattern.matcher(passwordToCheck);
 		
 		return matcher.matches();
 	}

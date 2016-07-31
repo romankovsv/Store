@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+import com.foodstore.serg.utils.Validator;
+
 
 @WebFilter(filterName = "MailFilter", servletNames = "RegistrationServlet")
 public class MailFilter implements Filter{
@@ -41,6 +43,13 @@ public class MailFilter implements Filter{
 			chain.doFilter(request, response); 
 		}else{
 			String email = request.getParameter(MAIL);
+			
+			if(Validator.validateEmail(email)){
+				chain.doFilter(request, response);
+				LOGGER.debug(String.format("Email for registration is correct: ServletPath = %s",
+						httpRequest.getServletPath()));
+				
+			}
 		}
 		
 		
