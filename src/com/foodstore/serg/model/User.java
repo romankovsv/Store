@@ -44,5 +44,9 @@ public class User {
 		return Objects.hash(email, password);
 	}
 	
+	@Override
+	public String toString(){
+		return "User id:"+id+", email:"+email;
+	}
 
 }
