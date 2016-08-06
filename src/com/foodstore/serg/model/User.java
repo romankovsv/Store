@@ -4,12 +4,18 @@ import java.util.Objects;
 
 public class User {
 	
+	private static long id = 1;
 	private String email;
 	private String password;
 	
 	public User(String email, String password){
 		this.email = email;
 		this.password = password;
+		id++;
+	}
+	
+	public long getID(){
+		return id;
 	}
 	
 	public String getEmail(){

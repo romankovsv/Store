@@ -33,7 +33,7 @@
 			<tr>
 			<tr>
 				<td><label>Repeat Password:</label></td>
-				<td><input class="inputs" type="password" name="password" required></td>
+				<td><input class="inputs" type="password" name="passwordConform" required></td>
 			
 		</table>
 		<input class="subm" type="submit" value="Register" name="submit">

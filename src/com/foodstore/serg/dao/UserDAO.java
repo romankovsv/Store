@@ -4,7 +4,12 @@ import com.foodstore.serg.model.User;
 
 public interface UserDAO {
 	
-	public boolean add(User user);
+	boolean addUser(User user);
 	
-	public User findUser(User user);
+	User getUser(long id);
+	
+	boolean update(long id, User user);
+	
+	boolean remove(long id);
+	
 }

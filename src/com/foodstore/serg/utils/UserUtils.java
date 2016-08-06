@@ -18,7 +18,6 @@ public class UserUtils {
 			LOGGER.debug("Verifying parameters for user creation");
 			return (user = new User(email, password));
 		}
-		
 		return user;
 	}
 	
