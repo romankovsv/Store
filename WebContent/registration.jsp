@@ -2,30 +2,25 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
 <head>
 <title>Registration page</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <header class="topbar">
 <ul>
 	<li><a class="references" href="index.jsp">Home</a></li>
-	<li><a href="./add" class="active">Add</a></li>
+	<li><a href="./add">Add</a></li>
 	<li><a href="./display">Dashboard</a></li>
+    <li><a href="./register" class="active">Register</a></li>
+	<li><a href="./login">Sign in</a></li>
 	
 </ul>
 </header>
 
-</br>
-<div class="unsuccess_message">${message}</div>
-<div class="success_message">${success_message}</div>
-
-<p class="suggest">Please add the product:</p>
-
 <body class="page">
-	<section class="main_field">
+	<section class="registration_fields">
 	<form action="register" method="post">
 		<table class="fields">
 

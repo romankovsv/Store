@@ -7,7 +7,7 @@
     position :relative;
     bottom: 10px;
     right: 10px;
-    background-color: rgb(56, 175, 143);
+    background-color:#a2e8db ;
 
 }
 
@@ -32,7 +32,7 @@
 }
 
 .page{
-    background-color:burlywood;
+    background-color:rgb(173, 203, 239);
 }
 
 .inputs  {
@@ -51,11 +51,20 @@
 }
 
 .main_field{
-    width:330px;
-    height:430px;
-    border: 1px solid #000000;
+    width:350px;
+    height:450px;
+    border: 1px solid #d4a870;
     border-collapse: collapse;
-    background-color:#b0b4b0;
+    background-color:rgb(178, 138, 183);
+
+}
+
+.registration_fields{
+	width:350px;
+    height:230px;
+    border: 1px solid #d4a870;
+    border-collapse: collapse;
+    background-color:rgb(178, 138, 183);
 }
 
 .references a:hover, .active {
@@ -64,7 +73,15 @@
 
 .subm{
     background-color: rgb(15, 100, 199);
-    margin-left: 84px;
+    margin-left: 120px;
+    width:202px;
+    height:32px;
+}
+
+.register{
+    background-color: white;
+    margin-top: 20;
+    margin-left: 120px;
     width:202px;
     height:32px;
 }
