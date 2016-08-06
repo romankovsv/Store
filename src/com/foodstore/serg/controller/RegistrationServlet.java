@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
+import com.foodstore.serg.dao.ListUserDAOImpl;
+import com.foodstore.serg.dao.UserDAO;
 import com.foodstore.serg.model.User;
 import com.foodstore.serg.utils.UserUtils;
 
@@ -41,6 +43,18 @@ public class RegistrationServlet extends HttpServlet {
 		
 		User user = UserUtils.createUser(request.getParameter(EMAIL), request.getParameter(PASSWORD),
 				request.getParameter(PASSWORD_CONFORMATION));
+		
+		if(ListUserDAOImpl.getlistOfUsers().add(user)){
+			
+			LOGGER.debug("New user successfully registered");
+			message = SUCCESS;
+			type = TYPE_SUCCESS;
+		}else{
+			
+			LOGGER.debug("Could not register new user");
+			message = DATABASE_ERROR;
+			type = TYPE_ERROR;
+		}
 		
 		
 		/*

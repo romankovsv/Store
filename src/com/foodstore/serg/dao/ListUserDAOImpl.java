@@ -2,9 +2,7 @@ package com.foodstore.serg.dao;
 
 import java.util.Iterator;
 import java.util.List;
-
 import org.apache.log4j.Logger;
-
 import com.foodstore.serg.model.Meal;
 import com.foodstore.serg.model.User;
 
@@ -12,7 +10,11 @@ public class ListUserDAOImpl implements UserDAO {
 
 	public static final Logger LOGGER = Logger.getLogger(UserRepository.class.getSimpleName());
 
-	List<User> users = UserRepository.getUsers();
+	private static List<User> users = UserRepository.getUsers();
+	
+	public static List<User> getlistOfUsers(){
+		return users;
+	}
 
 	@Override
 	public boolean addUser(User user) {
@@ -71,5 +73,6 @@ public class ListUserDAOImpl implements UserDAO {
 		LOGGER.info("User wasn`t removed");
 		return false;
 	}
+	
 
 }

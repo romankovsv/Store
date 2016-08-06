@@ -9,6 +9,7 @@ import com.foodstore.serg.model.User;
 public class UserRepository{
 	
 	public static final Logger LOGGER = Logger.getLogger(UserRepository.class.getSimpleName());
+	
 	private static List<User> users = new ArrayList<>();
 	
 	public static List<User> getUsers(){

@@ -14,7 +14,8 @@
 	<li><a class="references" href="index.jsp">Home</a></li>
 	<li><a href="./add" class="active">Add</a></li>
 	<li><a href="./display">Dashboard</a></li>
-	
+	<li><a href="./register">Register</a></li>
+	<li><a href="./login">Sign in</a></li>
 </ul>
 </header>
 
