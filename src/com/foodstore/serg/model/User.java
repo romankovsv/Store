@@ -4,26 +4,20 @@ import java.util.Objects;
 
 public class User {
 	
-	private String login;
+	private String email;
 	private String password;
-	private Role role;
 	
-	public User(String login, String password, Role role){
-		this.login = login;
+	public User(String email, String password){
+		this.email = email;
 		this.password = password;
-		this.role = role;
 	}
 	
-	public String getLogin(){
-		return login;
+	public String getEmail(){
+		return email;
 	}
 	
 	public String getPassword(){
 		return password;
-	}
-	
-	public Role getRole(){
-		return role;
 	}
 	
 	@Override
@@ -33,16 +27,15 @@ public class User {
 		if(anotherUser instanceof User){
 			User other = (User)anotherUser;
 			
-			return 	Objects.equals(login, other.getLogin())
-					&& Objects.equals(password, other.getPassword())
-					&& role == other.getRole();
+			return 	Objects.equals(email, other.getEmail())
+					&& Objects.equals(password, other.getPassword());
 		}
 		return false;
 	}
 	
 	@Override
 	public int hashCode(){
-		return Objects.hash(login, password, role);
+		return Objects.hash(email, password);
 	}
 	
 
