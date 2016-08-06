@@ -17,12 +17,12 @@ import org.apache.log4j.Logger;
 import com.foodstore.serg.utils.Validator;
 
 @WebFilter(filterName = "MailFilter", servletNames = "RegistrationServlet")
-public class PasswordFilter implements Filter{
-	
+public class PasswordFilter implements Filter {
+
 	public static final Logger LOGGER = LogManager.getLogger(PasswordFilter.class);
-	
+
 	private FilterConfig filterConfig = null;
-	
+
 	private static final String PASSWORD = "password";
 	private static final String PASSWORD_CONFORMATION = "password-conformation";
 	private static final String ERROR_PASSWORD = "pass_error";
@@ -32,46 +32,45 @@ public class PasswordFilter implements Filter{
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		this.filterConfig = filterConfig;
-		
 	}
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		
+
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
-		
-		if( ! httpRequest.getMethod().equalsIgnoreCase("POST")){
-			
-			chain.doFilter(request, response); 
-		
-		}else{
-			
+
+		if (!httpRequest.getMethod().equalsIgnoreCase("POST")) {
+			chain.doFilter(request, response);
+		} else {
+
 			LOGGER.debug("Registration POST request. Filtering passwords");
-			
-			final String password  =  request.getParameter(PASSWORD);
+			final String password = request.getParameter(PASSWORD);
 			final String passwordConformation = request.getParameter(PASSWORD_CONFORMATION);
-			
-			if(Validator.validatePassword(password) 
-					&& Validator.validatePassword(passwordConformation)
-					&& password.equals(passwordConformation)){
-				
+
+			if (Validator.validatePassword(password) && Validator.validatePassword(passwordConformation)
+					&& password.equals(passwordConformation)) {
+
 				LOGGER.debug("Password is correct");
+				LOGGER.debug("Request recieved from: " + httpRequest.getRemoteHost() + " for: "
+						+ httpRequest.getRequestURL());
 				chain.doFilter(request, response);
-			}else{
+			} else {
 				LOGGER.warn("Password is incorrect or conformation doesn`t match");
-				request.setAttribute(ERROR_PASSWORD,WRONG_PASSWORD);
+				LOGGER.debug("Request recieved from: " + httpRequest.getRemoteHost() + " for: "
+						+ httpRequest.getRequestURL());
+
+				request.setAttribute(ERROR_PASSWORD, WRONG_PASSWORD);
 				LOGGER.debug(REDIRECT_TO_REG);
 				request.getRequestDispatcher("registration.jsp").forward(request, response);
 			}
-			
+
 		}
 	}
 
-	
 	@Override
 	public void destroy() {
 		filterConfig = null;
-		
+
 	}
 }

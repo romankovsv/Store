@@ -48,6 +48,8 @@ public class MailFilter implements Filter{
 				chain.doFilter(request, response);
 				LOGGER.debug(String.format("Email for registration is correct: ServletPath = %s",
 						httpRequest.getServletPath()));
+				LOGGER.debug("Request recieved from: " +httpRequest.getRemoteHost()+
+						" for: "+httpRequest.getRequestURL());
 				
 			}
 		}
