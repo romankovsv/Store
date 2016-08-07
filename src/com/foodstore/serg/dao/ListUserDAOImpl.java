@@ -12,9 +12,9 @@ public class ListUserDAOImpl implements UserDAO {
 
 	public static List<User> users = UserRepository.getUsers();
 	
-	/*public static List<User> getlistOfUsers(){
+	public static List<User> getlistOfUsers(){
 		return users;
-	}*/
+	}
 
 	@Override
 	public boolean addUser(User user) {

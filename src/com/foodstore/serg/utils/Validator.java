@@ -10,6 +10,7 @@ public class Validator {
 	 * numbers and letters and also . (dot) and _ (underscore)
 	 * Part after @ can be at least 1 character long and first character
 	 * must be a letter
+	 * якщо в ц≥й частин≥ символ≥в б≥льше н≥ж один то першим маЇ бути буквенний.
 	 * Part after . can be either 2 or 3 characters long
 	 * @param emailToCheck string contains email field
 	 * @return boolean emailToCheck passed the validation or not

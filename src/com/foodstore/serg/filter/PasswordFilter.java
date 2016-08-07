@@ -56,7 +56,7 @@ public class PasswordFilter implements Filter {
 						+ httpRequest.getRequestURL());
 				chain.doFilter(request, response);
 			} else {
-				LOGGER.warn("Password is incorrect or conformation doesn`t match");
+				LOGGER.debug("Password is incorrect or conformation doesn`t match");
 				LOGGER.debug("Request recieved from: " + httpRequest.getRemoteHost() + " for: "
 						+ httpRequest.getRequestURL());
 

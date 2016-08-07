@@ -5,7 +5,7 @@
 <html>
 <head>
 <title>Registration page</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <header class="topbar">
@@ -13,11 +13,16 @@
 	<li><a class="references" href="index.jsp">Home</a></li>
 	<li><a href="./add">Add</a></li>
 	<li><a href="./display">Dashboard</a></li>
-    <li><a href="./register" class="active">Register</a></li>
+	<li><a href="./register" class="active">Register</a></li>
 	<li><a href="./login">Sign in</a></li>
-	
+
 </ul>
 </header>
+
+</br>
+<div class="unsuccess_message">${message}</div>
+<div class="success_message">${success_message}</div>
+
 
 <body class="page">
 	<section class="registration_fields">
@@ -29,12 +34,13 @@
 				<td><input class="inputs" type="text" name="email" required></td>
 			<tr>
 				<td><label>Password:</label></td>
-				<td><input class="inputs" type="password" name="password" required></td>
+				<td><input class="inputs" type="password" name="password"
+					required></td>
 			<tr>
 			<tr>
 				<td><label>Repeat Password:</label></td>
-				<td><input class="inputs" type="password" name="passwordConform" required></td>
-			
+				<td><input class="inputs" type="password"
+					name="passwordConform" required></td>
 		</table>
 		<input class="subm" type="submit" value="Register" name="submit">
 	</form>

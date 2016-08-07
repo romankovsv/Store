@@ -22,13 +22,28 @@ public class UserUtils {
 	}
 	
 	private static boolean passwordConformationIsEdentiqal(String password, String passwordConformation){
-	
-		return password.equals(passwordConformation);
+		boolean result = password.equals(passwordConformation);
+		if(result){
+			LOGGER.debug("password and conformation are equals");
+		}else{
+			LOGGER.debug("password and conformation are different");
+		}
+		return result;
 	}
 	
 	private static boolean checkUserParams(String email, String password, String passwordConformation){
 		
-		return !(email.isEmpty() || email == null || password.isEmpty() || password == null ||
+		boolean result = !(email.isEmpty() || email == null || password.isEmpty() || password == null ||
 				passwordConformation.isEmpty() || passwordConformation == null);
+		
+		if(result){
+			LOGGER.debug("email or password is not empty or null");
+		
+		}else{
+			LOGGER.debug("email and/or password is empty or null");
+			
+		}
+		
+		return result;
 	}
 }

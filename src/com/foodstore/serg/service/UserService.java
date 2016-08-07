@@ -11,24 +11,8 @@ public class UserService {
 	public static boolean add(User user){
 		return userDAO.addUser(user);
 	}
-	/*
-	 * private static UserDAO userDao = new UserToListDAOimpl();
-
-	public static boolean add(User user) {
-
-		return userDao.add(user);
+	
+	public static User get(long id){
+		return userDAO.getUser(id);
 	}
-
-	public static boolean findUser(String mail, String password) {
-
-		return userDao.findUser(mail, password);
-
-	}
-
-	public static int getUserId(String mail) {
-
-		return userDao.getUserId(mail);
-
-}
-	 */
 }
