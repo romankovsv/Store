@@ -56,6 +56,7 @@
     border: 1px solid #d4a870;
     border-collapse: collapse;
     background-color:rgb(178, 138, 183);
+    border-radius: 10px;
 
 }
 
@@ -65,15 +66,23 @@
     border: 1px solid #d4a870;
     border-collapse: collapse;
     background-color:rgb(178, 138, 183);
+    border-radius: 10px;
 }
 
 .references a:hover, .active {
     border-bottom: 2px solid black;
 }
 
-.subm{
-    background-color: rgb(15, 100, 199);
+.subm_register{
+    background-color: #c0c0c015100199;
     margin-left: 120px;
+    width:202px;
+    height:32px;
+}
+
+.subm{
+    background-color: #c0c0c015100199;
+    margin-left: 85px;
     width:202px;
     height:32px;
 }

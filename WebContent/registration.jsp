@@ -42,7 +42,7 @@
 				<td><input class="inputs" type="password"
 					name="passwordConform" required></td>
 		</table>
-		<input class="subm" type="submit" value="Register" name="submit">
+		<input class="subm_register" type="submit" value="Register" name="submit">
 	</form>
 	</section>
 </body>
