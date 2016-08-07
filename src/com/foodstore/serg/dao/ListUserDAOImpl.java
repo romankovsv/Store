@@ -10,11 +10,11 @@ public class ListUserDAOImpl implements UserDAO {
 
 	public static final Logger LOGGER = Logger.getLogger(UserRepository.class.getSimpleName());
 
-	private static List<User> users = UserRepository.getUsers();
+	public static List<User> users = UserRepository.getUsers();
 	
-	public static List<User> getlistOfUsers(){
+	/*public static List<User> getlistOfUsers(){
 		return users;
-	}
+	}*/
 
 	@Override
 	public boolean addUser(User user) {
@@ -47,7 +47,7 @@ public class ListUserDAOImpl implements UserDAO {
 	}
 
 	@Override
-	public boolean update(long id, User userToUpdate) {
+	public boolean updateUser(long id, User userToUpdate) {
 		for (int i = 0; i < users.size(); i++) {
 			if (users.get(i).getID() == id) {
 				users.set(i, userToUpdate);
@@ -60,7 +60,7 @@ public class ListUserDAOImpl implements UserDAO {
 	}
 	
 	@Override
-	public boolean remove(long id) {
+	public boolean removeUser(long id) {
 		Iterator<User> iter = users.iterator();
 		while (iter.hasNext()) {
 			User user = iter.next();

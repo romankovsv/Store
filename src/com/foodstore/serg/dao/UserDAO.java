@@ -8,8 +8,8 @@ public interface UserDAO {
 	
 	User getUser(long id);
 	
-	boolean update(long id, User user);
+	boolean updateUser(long id, User user);
 	
-	boolean remove(long id);
+	boolean removeUser(long id);
 	
 }

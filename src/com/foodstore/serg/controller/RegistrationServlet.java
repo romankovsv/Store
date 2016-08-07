@@ -30,7 +30,7 @@ public class RegistrationServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		LOGGER.debug("GET request redirected to "+REGISTRATION);
-		response.sendRedirect(REGISTRATION);
+		request.getRequestDispatcher(REGISTRATION).forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
