@@ -1,13 +1,8 @@
-package test;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 import com.foodstore.serg.utils.Validator;
-
-import org.testng.Assert;
-import org.testng.annotations.*;
-
-
 
 
 public class EmailValidatorTest {
@@ -20,8 +15,6 @@ public class EmailValidatorTest {
     }
 
     /*
-     * /**
-     * Validates followings:
      * first part of email before @ can be 4 to 31 length, can contain
      * numbers and letters and also . (dot) and _ (underscore)
      * Part after @ can be at least 1 character long and first character
