@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="156" started-at="2016-08-12T18:09:15Z" finished-at="2016-08-12T18:09:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="156" started-at="2016-08-12T18:09:15Z" finished-at="2016-08-12T18:09:15Z">
+      <class name="com.foodstore.PasswordValidatorTest">
+        <test-method status="PASS" signature="verifyInvalidPasswords(java.lang.String)[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="verifyInvalidPasswords" duration-ms="1" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidPasswords" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyInvalidPasswords(java.lang.String)[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="verifyInvalidPasswords" duration-ms="1" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidPasswords" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serginio12serginio12123451]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswords -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyInvalidPasswords(java.lang.String)[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="verifyInvalidPasswords" duration-ms="1" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidPasswords" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyValidPasswords(java.lang.String)[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="verifyValidPasswords" duration-ms="1" started-at="2016-08-12T21:09:15Z" data-provider="getValidPasswords" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidPasswords -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyValidPasswords(java.lang.String)[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="verifyValidPasswords" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getValidPasswords" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serginio12serinio1212345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidPasswords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyValidPasswords(java.lang.String)[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="verifyValidPasswords" duration-ms="4" started-at="2016-08-12T21:09:15Z" data-provider="getValidPasswords" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!*&?#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidPasswords -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.PasswordValidatorTest@48eff760]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.foodstore.PasswordValidatorTest -->
+      <class name="com.foodstore.EmailValidatorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="9" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="14" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serg@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="4" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serginio12serginio12serginio129@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[se_r@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[numbers1234@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="3" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dot.e@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serg@i.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serg@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="correctEmailsVerifying(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="correctEmailsVerifying" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getValidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serg@mail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctEmailsVerifying -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="3" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seg@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serginio12serginio12serginio1291@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="3" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[se_!r@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="3" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[numbers&?1234@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dot.e@mail.1u]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serg@i.rutiyutyt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIncorrectEmailsCanNotBeUused(java.lang.String)[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="verifyIncorrectEmailsCanNotBeUused" duration-ms="2" started-at="2016-08-12T21:09:15Z" data-provider="getInvalidEmails" finished-at="2016-08-12T21:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serg@mail.r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailsCanNotBeUused -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.foodstore.EmailValidatorTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-12T21:09:15Z" finished-at="2016-08-12T21:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.foodstore.EmailValidatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
